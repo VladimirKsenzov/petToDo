@@ -35,6 +35,8 @@ addTaskButton.addEventListener('click', () => {
 
   taskInput.value = '';
 
+  taskInput.focus();
+
   updateTaskNumbers();
 });
 
